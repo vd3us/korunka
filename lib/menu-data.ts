@@ -6,6 +6,31 @@ export type MenuPage = {
 
 export const MENU_PAGES: MenuPage[] = [
   {
+    src: '/images/1_Meniu.jpg',
+    label: 'Meniu — Koronka',
+    category: 'Copertă',
+  },
+  {
+    src: '/images/2_Preparate_BBQ-Smoker_&_Specialitatile_Bucatarului.jpg',
+    label: 'Preparate BBQ-Smoker & Specialitățile Bucătarului',
+    category: 'BBQ & Specialități',
+  },
+  {
+    src: '/images/3_Burgeri_&_Preparate_din_carne_de_vita.jpg',
+    label: 'Burgeri & Preparate din Carne de Vită',
+    category: 'Burgeri & Vită',
+  },
+  {
+    src: '/images/4_Gustari_Calde_&_Gustari_Reci.jpg',
+    label: 'Gustări Calde & Gustări Reci',
+    category: 'Gustări',
+  },
+  {
+    src: '/images/5_Supe_&_Ciorbe.jpg',
+    label: 'Supe & Ciorbe',
+    category: 'Supe & Ciorbe',
+  },
+  {
     src: '/images/menu/8_Salate_&_Paste_&_Preparate_din_Peste.jpg',
     label: 'Salate, Paste & Preparate din Pește',
     category: 'Salate & Paste',

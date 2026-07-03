@@ -31,6 +31,16 @@ export const MENU_PAGES: MenuPage[] = [
     category: 'Supe & Ciorbe',
   },
   {
+    src: '/images/6_Preparate_din_carne_de_pasare_&_(Platouri_2-4_Persoane).jpg',
+    label: 'Preparate din Carne de Pasăre & Platouri 2–4 Persoane',
+    category: 'Pasăre & Platouri',
+  },
+  {
+    src: '/images/7_Preparate_Traditionale_&_Preparate_din_carne_de_porc.jpg',
+    label: 'Preparate Tradiționale & Preparate din Carne de Porc',
+    category: 'Tradiționale & Porc',
+  },
+  {
     src: '/images/menu/8_Salate_&_Paste_&_Preparate_din_Peste.jpg',
     label: 'Salate, Paste & Preparate din Pește',
     category: 'Salate & Paste',
@@ -54,5 +64,20 @@ export const MENU_PAGES: MenuPage[] = [
     src: '/images/menu/12_Desert.jpg',
     label: 'Desert',
     category: 'Desert',
+  },
+  {
+    src: '/images/13_Garnituri.jpg',
+    label: 'Garnituri',
+    category: 'Garnituri',
+  },
+  {
+    src: '/images/14_Bauturi.jpg',
+    label: 'Băuturi — Cafea, Ceai & Cocktailuri',
+    category: 'Băuturi',
+  },
+  {
+    src: '/images/15_Racoritoare.jpg',
+    label: 'Răcoritoare & Limonade',
+    category: 'Răcoritoare',
   },
 ]

@@ -1,18 +1,5 @@
 import type { LucideIcon } from 'lucide-react'
-import {
-  Wifi,
-  Wind,
-  UtensilsCrossed,
-  Wine,
-  Trees,
-  Flower2,
-  Flame,
-  Waves,
-  ParkingCircle,
-  Refrigerator,
-  Tv,
-  Bath,
-} from 'lucide-react'
+import { Wifi, Wind, UtensilsCrossed, Wine, Trees, Flower2, Flame, Save as Waves, CircleParking as ParkingCircle, Refrigerator, Tv, Bath } from 'lucide-react'
 
 export const NAV_LINKS = [
   { label: 'Home', href: '/' },
@@ -59,15 +46,6 @@ export const GALLERY: GalleryImage[] = [
   { src: '/images/gallery-6.png', alt: 'Interiorul restaurantului pensiunii' },
   { src: '/images/gallery-7.png', alt: 'Grădina amenajată a pensiunii' },
   { src: '/images/gallery-8.png', alt: 'Barul și zona de relaxare' },
-]
-
-export const MENU_IMAGES: GalleryImage[] = [
-  { src: '/images/menu-1.png', alt: 'Aperitiv gourmet cu ingrediente locale' },
-  { src: '/images/menu-2.png', alt: 'Fel principal din bucătăria tradițională românească' },
-  { src: '/images/menu-3.png', alt: 'Desert rafinat cu fructe de pădure' },
-  { src: '/images/menu-4.png', alt: 'Salată proaspătă din grădină' },
-  { src: '/images/menu-5.png', alt: 'Supă tradițională făcută în casă' },
-  { src: '/images/menu-6.png', alt: 'Platou de brânzeturi și vin roșu' },
 ]
 
 export const SCHEDULE: string[] = [

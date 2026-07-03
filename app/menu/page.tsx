@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Navbar } from '@/components/layout/navbar'
 import { Footer } from '@/components/layout/footer'
 import { MenuHero } from '@/components/menu/menu-hero'
-import { MenuGallery } from '@/components/menu/menu-gallery'
+import { MenuViewer } from '@/components/menu/menu-viewer'
 
 export const metadata: Metadata = {
   title: 'Meniul Restaurantului',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Meniul Restaurantului | Pensiunea Koronka',
     description:
-      'Preparate inspirate din bucătăria tradițională românească și internațională, pregătite cu ingrediente atent selecționate.',
+      'Preparate inspirate din bucătăria tradițională românească și internațională, pregătite cu ingrediente atant selecționate.',
     images: ['/images/menu-hero.png'],
   },
 }
@@ -25,7 +25,7 @@ export default function MenuPage() {
       <Navbar />
       <main>
         <MenuHero />
-        <MenuGallery />
+        <MenuViewer />
       </main>
       <Footer />
     </>

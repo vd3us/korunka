@@ -80,4 +80,44 @@ export const MENU_PAGES: MenuPage[] = [
     label: 'Răcoritoare & Limonade',
     category: 'Răcoritoare',
   },
+  {
+    src: '/images/16_Bere.jpg',
+    label: 'Bere',
+    category: 'Bere',
+  },
+  {
+    src: '/images/17_Vinuri_Albe_&_WHITE_WINE.jpg',
+    label: 'Vinuri Albe & White Wine',
+    category: 'Vinuri Albe',
+  },
+  {
+    src: '/images/18_Vinuri_Rosii_&_Red_Wine.jpg',
+    label: 'Vinuri Roșii & Red Wine',
+    category: 'Vinuri Roșii',
+  },
+  {
+    src: '/images/19_Vinars_&_Cognac.jpg',
+    label: 'Vinars & Cognac',
+    category: 'Vinars & Cognac',
+  },
+  {
+    src: '/images/20_Lichior_&_Vermouth.jpg',
+    label: 'Lichior & Vermouth',
+    category: 'Lichior & Vermouth',
+  },
+  {
+    src: '/images/21_Info.jpg',
+    label: 'Info — Date de Contact & Cod Fiscal',
+    category: 'Info',
+  },
+  {
+    src: '/images/22_Poza_cu_restaurantul.jpg',
+    label: 'Pensiunea Koronka — Restaurant',
+    category: 'Restaurant',
+  },
+  {
+    src: '/images/23_Pofta_buna.jpg',
+    label: 'Poftă Bună!',
+    category: 'Poftă Bună',
+  },
 ]
